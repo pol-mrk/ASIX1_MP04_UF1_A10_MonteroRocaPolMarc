@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* -------------------------------------------------------------- */
+
+p{
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+h5{
+    font-size: 1.15rem;
+}
+
+h6{
+    font-size: 1.05rem;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column-1{
+    width: 100%;
+    float: left;
+}
+
+.column-2{
+    width: 50%;
+    float: left;
+}
+
+.column-3{
+    width: 33.33%;
+    float: left;
+}
+
+.column-4{
+    width: 25%;
+    float: left;
+}
+
+.column-5{
+    width: 20%;
+    float: left;
+}
+
+.column-6{
+    width: 16.66%;
+    float: left;
+}
+
+.column-75{
+    width: 75%;
+    float: left;
+}
+
+/* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Otras clases */
+
+#header {
+    height: 100vh;
+    background-image: url(../img/LH\ foto.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+body::before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(#000000, #000000);
+    opacity: 0.7;
+}
+
+#texto {
+    z-index: 1;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#main {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#main p {
+    font-size: 20px;
+}
+
+#main h1 {
+    font-size: 40px;
+}
+
+.column-menu{
+    width: 25%;
+    float: left;
+}
+
+.column-menu2{
+    width: 25%;
+    float: right;
+}
+
+.pad1{
+    padding: 2%;
+}
+
+.pad2{
+    padding-top: 6%;
+    padding-left: 6%;    
+}
+
+.back-white{
+    background-color: white;
+}
+
+img{
+    width: 100%;
+}
+
+#img1{
+    height: 50vh;
+    background-image: url("../img/5407642_UrvVUsgZcQhsZqLYOTVeQUAcpu62X6Dlvt99WC7uxVs.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#img-2{
+    height: 50vh;
+    background-image: url("../img/tecla\ sala.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#img-3{
+    height: 50vh;
+    background-image: url("../img/casaespanya3.jpg");
+    background-size: cover;
+    background-position: center;
+}
